@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SimpleMorseCode</string>
+    <string name="title_learn">Learn</string>
+    <string name="title_flashlight">Flashlight</string>
+    <string name="title_translate">Translate</string>
+</resources>
