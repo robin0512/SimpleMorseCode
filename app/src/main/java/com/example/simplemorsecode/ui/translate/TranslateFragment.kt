@@ -15,8 +15,6 @@ class TranslateFragment : Fragment() {
     private lateinit var translateViewModel: TranslateViewModel
     private var _binding: FragmentTranslateBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -24,16 +22,20 @@ class TranslateFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        translateViewModel =
-            ViewModelProvider(this).get(TranslateViewModel::class.java)
 
         _binding = FragmentTranslateBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textTranslate
-        translateViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
+        translateViewModel =
+            ViewModelProvider(this).get(TranslateViewModel::class.java)
+                .apply {
+                    text.observe(viewLifecycleOwner, Observer {
+                        textView.text = it
+                    })
+                }
+
         return root
     }
 
