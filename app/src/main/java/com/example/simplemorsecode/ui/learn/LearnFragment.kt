@@ -15,6 +15,8 @@ class LearnFragment : Fragment() {
     private lateinit var learnViewModel: LearnViewModel
     private var _binding: FragmentLearnBinding? = null
 
+    // This property is only valid between onCreateView and
+    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -22,20 +24,16 @@ class LearnFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        learnViewModel =
+            ViewModelProvider(this).get(LearnViewModel::class.java)
 
         _binding = FragmentLearnBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textLearn
-
-        learnViewModel =
-            ViewModelProvider(this).get(LearnViewModel::class.java)
-                .apply {
-                    text.observe(viewLifecycleOwner, Observer {
-                        textView.text = it
-                    })
-                }
-
+        learnViewModel.text.observe(viewLifecycleOwner, Observer {
+            textView.text = it
+        })
         return root
     }
 
