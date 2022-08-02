@@ -4,19 +4,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/brown_light"
     tools:context=".ui.flashlight.FlashlightFragment">
 
-    <TextView
-        android:id="@+id/text_flashlight"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_a"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="A&#10;.-"
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_b"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="B&#10;-..."
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_c"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="C&#10;-.-."
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_d"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="D&#10;-.."
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_e"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="E&#10;."
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_f"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="F&#10;..-."
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_g"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="G&#10;--."
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_h"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="H&#10;...."
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <!--    <EditText-->
+<!--        android:id="@+id/editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:text="Enter text"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
