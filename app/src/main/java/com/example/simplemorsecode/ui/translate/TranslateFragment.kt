@@ -49,12 +49,9 @@ class TranslateFragment : Fragment() {
             cameraManager = requireActivity().getSystemService(Context.CAMERA_SERVICE) as CameraManager
             vibratorManager = requireActivity().getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
 
-            var textInput = binding.textInput.text
-
             binding.btnTranslate.setOnClickListener {
                 lifecycleScope.launch {
-                    flashBinaryMessage(textInput.toString())
-
+                    flashBinaryMessage(binding.textInput.text.toString())
                 }
             }
         }
