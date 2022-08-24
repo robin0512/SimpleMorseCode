@@ -47,8 +47,8 @@ class FlashlightFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         lifecycleScope.launch {
-            cameraManager = activity!!.getSystemService(Context.CAMERA_SERVICE) as CameraManager
-            vibratorManager = activity!!.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            cameraManager = requireActivity().getSystemService(Context.CAMERA_SERVICE) as CameraManager
+            vibratorManager = requireActivity().getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
 
             binding.btnA.setOnClickListener {
                 lifecycleScope.launch {
@@ -88,6 +88,146 @@ class FlashlightFragment : Fragment() {
             binding.btnH.setOnClickListener {
                 lifecycleScope.launch {
                     flashBinaryMessage("H")
+                }
+            }
+            binding.btnI.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("I")
+                }
+            }
+            binding.btnJ.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("J")
+                }
+            }
+            binding.btnK.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("K")
+                }
+            }
+            binding.btnL.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("L")
+                }
+            }
+            binding.btnM.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("M")
+                }
+            }
+            binding.btnN.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("N")
+                }
+            }
+            binding.btnO.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("O")
+                }
+            }
+            binding.btnP.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("P")
+                }
+            }
+            binding.btnQ.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("Q")
+                }
+            }
+            binding.btnR.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("R")
+                }
+            }
+            binding.btnS.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("S")
+                }
+            }
+            binding.btnT.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("T")
+                }
+            }
+            binding.btnU.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("U")
+                }
+            }
+            binding.btnV.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("V")
+                }
+            }
+            binding.btnW.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("W")
+                }
+            }
+            binding.btnX.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("X")
+                }
+            }
+            binding.btnY.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("Y")
+                }
+            }
+            binding.btnZ.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("Z")
+                }
+            }
+            binding.btn0.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("0")
+                }
+            }
+            binding.btn1.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("1")
+                }
+            }
+            binding.btn2.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("2")
+                }
+            }
+            binding.btn3.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("3")
+                }
+            }
+            binding.btn4.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("4")
+                }
+            }
+            binding.btn5.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("5")
+                }
+            }
+            binding.btn6.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("6")
+                }
+            }
+            binding.btn7.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("7")
+                }
+            }
+            binding.btn8.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("8")
+                }
+            }
+            binding.btn9.setOnClickListener {
+                lifecycleScope.launch {
+                    flashBinaryMessage("9")
                 }
             }
         }

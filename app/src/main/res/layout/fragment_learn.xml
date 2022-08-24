@@ -6,17 +6,400 @@
     android:layout_height="match_parent"
     tools:context=".ui.learn.LearnFragment">
 
-    <TextView
-        android:id="@+id/text_learn"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_a_a"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="All after&#10;(AA)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_a_b"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="All before&#10;(AB)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_a_b_t"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="About&#10;(ABT)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_a_d_s"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Address&#10;(ADS)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_a_g_n"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Again&#10;(AGN)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_c"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Yes&#10;(C)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_c_f_m"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Confirm&#10;(CFM)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_c_l_g"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Calling&#10;(CLG)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_c_u_l"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="See you later&#10;(CUL)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_c_u_z"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Because&#10;(CUZ)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_d_e"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="From&#10;(DE)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_d_x"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Distance&#10;(DX)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_e_s"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="And&#10;(ES)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_g_a"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Good afternoon&#10;(GA)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_g_e"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Good evening&#10;(GE)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_g_m"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Good morning&#10;(GM)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_g_u_d"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Good&#10;(GUD)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_h_r"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Here&#10;(HR)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_h_v"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Have&#10;(HV)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_p_s_e"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Please&#10;(PSE)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_r"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Received&#10;(R)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_s_n"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Soon&#10;(SN)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_s_r_i"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Sorry&#10;(SRI)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_s_o_s"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Save our souls&#10;(SOS)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_t_n_x"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:text="Thanks&#10;(TNX)"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

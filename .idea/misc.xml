@@ -15,10 +15,13 @@
         <entry key="..\:/Users/user/Documents/GitHub/SimpleMorseCode/app/src/main/res/layout/fragment_learn.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/user/Documents/GitHub/SimpleMorseCode/app/src/main/res/layout/fragment_translate.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/user/Documents/GitHub/SimpleMorseCode/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36614583333333334" />
+        <entry key="app/src/main/res/layout/fragment_flashlight.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_learn.xml" value="0.24084014892578126" />
+        <entry key="app/src/main/res/layout/fragment_translate.xml" value="0.23278985507246377" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
